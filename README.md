@@ -26,10 +26,10 @@ Este repositório contém dois projetos: um backend simples utilizando `json-ser
 
 3. Inicie o servidor:
     ```sh
-    npx json-server --watch db.json --port 3001
+    npx json-server --watch db.json --port 3004
     ```
 
-    O servidor estará disponível em `http://localhost:3001`.
+    O servidor estará disponível em `http://localhost:3004`.
 
 ## Instruções para Executar o Frontend
 
@@ -52,7 +52,7 @@ Este repositório contém dois projetos: um backend simples utilizando `json-ser
 
 ## Configuração Adicional
 
-Certifique-se de que o frontend está configurado para fazer requisições para o backend na porta correta (`http://localhost:3001`). Verifique o arquivo de configuração ou o código onde a URL do backend é definida.
+Certifique-se de que o frontend está configurado para fazer requisições para o backend na porta correta (`http://localhost:3004`). Verifique o arquivo de configuração ou o código onde a URL do backend é definida.
 
 ## Contribuição
 
