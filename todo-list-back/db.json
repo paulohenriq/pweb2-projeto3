@@ -1,25 +1,22 @@
 {
   "users": [
     {
-      "username": "@paulohenriq"
+      "username": "@joao",
+      "id": "2123"
+    },
+    {
+      "username": "@maria",
+      "id": "2124"
     }
   ],
   "tasks": [
     {
-      "id": "8bfc",
-      "title": "asdfasdf",
-      "description": "asdfasdf",
-      "assignedTo": "@paulohenriq",
+      "id": "1",
+      "title": "Tarefa de exemplo",
+      "description": "Descrição de exemplo",
+      "assignedTo": "@maria",
       "createdAt": "2024-09-23T17:46:16.257Z",
-      "updatedAt": "2024-09-23T17:46:16.257Z"
-    },
-    {
-      "id": "8bfc",
-      "title": "asdfasdf 2",
-      "description": "asdfasdf 2",
-      "assignedTo": "@paulohenriq",
-      "createdAt": "2024-09-23T17:46:27.410Z",
-      "updatedAt": "2024-09-23T17:46:27.410Z"
+      "updatedAt": "2024-09-23T19:54:40.854Z"
     }
   ]
 }

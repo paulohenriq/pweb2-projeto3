@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  backend:
+    image: node:20-alpine
+    container_name: todo-list-backend
+    working_dir: /app
+    volumes:
+      - ./todo-list-back:/app
+    command: npx json-server --watch db.json --port 3334
+    ports:
+      - "3334:3334"
+    networks:
+      - todo-list-network
+
+  frontend:
+    image: node:20-alpine
+    container_name: todo-list-frontend
+    working_dir: /app
+    volumes:
+      - ./todo-list-front:/app
+      - /app/node_modules
+    command: sh -c "npm install && npm start"
+    ports:
+      - "3001:3000"
+    depends_on:
+      - backend
+    networks:
+      - todo-list-network
+
+networks:
+  todo-list-network:
+    driver: bridge

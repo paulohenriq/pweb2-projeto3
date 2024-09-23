@@ -1,6 +1,6 @@
 # Projeto Todo List
 
-Este repositório contém dois projetos: um backend simples utilizando `json-server` e um frontend em React com TypeScript.
+Este repositório contém dois projetos: um backend simples utilizando `json-server` e um frontend em React com TypeScript. Este projeto foi desenvolvido exclusivamente para fins didáticos na disciplina de Programação para Web 2 do Curso de Sistemas para Internet da UNCISAL, semestre letivo 2024.2.
 
 ## Estrutura do Repositório
 
@@ -12,7 +12,9 @@ Este repositório contém dois projetos: um backend simples utilizando `json-ser
 - Node.js instalado na máquina.
 - npm ou yarn como gerenciador de pacotes.
 
-## Instruções para Executar o Backend
+## Executando Diretamente no Sistema Operacional
+
+### Instruções para Executar o Backend
 
 1. Navegue até o diretório do backend:
     ```sh
@@ -29,9 +31,9 @@ Este repositório contém dois projetos: um backend simples utilizando `json-ser
     npx json-server --watch db.json --port 3004
     ```
 
-    O servidor estará disponível em `http://localhost:3004`.
+    O servidor estará disponível em `http://localhost:3334`.
 
-## Instruções para Executar o Frontend
+### Instruções para Executar o Frontend
 
 1. Navegue até o diretório do frontend:
     ```sh
@@ -50,14 +52,19 @@ Este repositório contém dois projetos: um backend simples utilizando `json-ser
 
     O aplicativo estará disponível em `http://localhost:3000`.
 
+## Executando com Docker
+
+### Instruções para Executar com Docker Compose
+
+1. Certifique-se de ter o Docker e o Docker Compose instalados na máquina.
+
+2. No diretório raiz do projeto, execute o comando:
+    ```sh
+    docker-compose up
+    ```
+
+    O backend estará disponível em `http://localhost:3334` e o frontend em `http://localhost:3001`.
+
 ## Configuração Adicional
 
-Certifique-se de que o frontend está configurado para fazer requisições para o backend na porta correta (`http://localhost:3004`). Verifique o arquivo de configuração ou o código onde a URL do backend é definida.
-
-## Contribuição
-
-Sinta-se à vontade para abrir issues e pull requests para melhorias e correções.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Certifique-se de que o frontend está configurado para fazer requisições para o backend na porta correta (`http://localhost:3334`). Verifique o arquivo de configuração ou o código onde a URL do backend é definida.
