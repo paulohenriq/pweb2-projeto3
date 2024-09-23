@@ -28,7 +28,7 @@ Este repositório contém dois projetos: um backend simples utilizando `json-ser
 
 3. Inicie o servidor:
     ```sh
-    npx json-server --watch db.json --port 3004
+    npx json-server --watch db.json --port 3334
     ```
 
     O servidor estará disponível em `http://localhost:3334`.
