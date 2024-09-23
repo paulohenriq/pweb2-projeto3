@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "@paulohenriq"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "8bfc",
+      "title": "asdfasdf",
+      "description": "asdfasdf",
+      "assignedTo": "@paulohenriq",
+      "createdAt": "2024-09-23T17:46:16.257Z",
+      "updatedAt": "2024-09-23T17:46:16.257Z"
+    },
+    {
+      "id": "8bfc",
+      "title": "asdfasdf 2",
+      "description": "asdfasdf 2",
+      "assignedTo": "@paulohenriq",
+      "createdAt": "2024-09-23T17:46:27.410Z",
+      "updatedAt": "2024-09-23T17:46:27.410Z"
+    }
+  ]
+}
