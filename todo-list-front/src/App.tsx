@@ -115,7 +115,10 @@ export default function App() {
               setSelectedTask(task)
               setIsEditing(true)
             }} 
-            onEditTask={() => setIsEditing(true)} 
+            onEditTask={(task) => {
+              setSelectedTask(task)
+              setIsEditing(true)
+            }} 
             onDeleteTask={handleDeleteTask} 
           />
         </div>
